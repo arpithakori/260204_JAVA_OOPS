@@ -16,7 +16,9 @@ public class T20Match extends Match {
 		
 		public  int calculateBalls() {
 			int ball=6*(int)getCurrentover();
-			return 120-ball;
+			float a = getCurrentover()*10;
+			int b =(int)a%10;
+			return 120-(ball+b);
 			
 		}
 		
