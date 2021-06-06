@@ -19,6 +19,7 @@ public class Main_Vehicles {
 				   four_w.setVehicleNumber(scan.nextLine());
 				   System.out.println("Fuel Type:\n1.Petrol\n2.Diesel");
 				   int choice=scan.nextInt();
+				   System.out.println("Demo");
 				   if(choice==1) {
 					   four_w.setFuelType("Petrol");
 				   }
